@@ -1674,26 +1674,6 @@ Possible future extensions include:
 
 ---
 
-# Acknowledgment
-
-The architectural concepts of this project were inspired in part by the open-source **tiny-gpu** project by Adam Majmudar.
-
-The implementation developed here extends the educational foundation with:
-
-* Multi-core organization
-* 64-thread SIMT execution
-* Private per-core L1 caches
-* Direct-mapped write-back caching
-* Dirty-line eviction
-* Cache arbitration
-* Shared memory-controller arbitration
-* Backing data memory
-* Hierarchical RTL organization
-
-The project was developed as an independent RTL architecture and learning implementation.
-
----
-
 # Author
 
 ## Ziad Mohamed
