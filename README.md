@@ -1383,17 +1383,17 @@ The testbench loads instruction sequences and verifies the resulting register an
 
 The following section contains representative simulation waveforms demonstrating the GPU execution and control behavior.
 
-## Waveform 1 — Instruction Execution
+## Waveform 1 — 
 
-> **Waveform Image 1 — Add Here**
+> **Waveform Image 1 
 
 <img width="1911" height="733" alt="wave_diagram_0" src="https://github.com/user-attachments/assets/1bffbb79-e1f1-46ed-ae25-c35b97f06a28" />
 
 ---
 
-## Waveform 2 — Memory / Cache Transaction
+## Waveform 2 —
 
-> **Waveform Image 2 — Add Here**
+> **Waveform Image 2 
 
 <img width="1901" height="729" alt="wave_diagram_1" src="https://github.com/user-attachments/assets/3812b005-b2eb-41d1-add9-6fd2d99a972c" />
 
