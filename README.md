@@ -77,7 +77,7 @@ This allows the architecture to demonstrate the fundamental relationship between
 
 The following diagram represents the complete high-level architecture of the GPU.
 
-> **Architecture Image — Add Here**
+
 
 <img width="1264" height="843" alt="Gemini_Generated_Image_i910rni910rni910" src="https://github.com/user-attachments/assets/931888ee-bcc6-4dbc-a5e0-99d183756fef" />
 
@@ -1404,7 +1404,7 @@ The following section contains representative simulation waveforms demonstrating
 
 The elaborated RTL design demonstrates the complete hierarchy generated from the Verilog source.
 
-> **Elaborated Design Image — Add Here**
+
 
 <img width="1530" height="589" alt="Elaborated" src="https://github.com/user-attachments/assets/826ae899-61d4-4113-9d14-859ee29db672" />
 
@@ -1428,7 +1428,7 @@ GPU
 
 The synthesis result provides a hardware-oriented view of the implemented RTL after synthesis.
 
-> **Synthesis Design Image — Add Here**
+
 
 <img width="1533" height="789" alt="Synthesis" src="https://github.com/user-attachments/assets/c73a2405-3f62-4190-9bc8-924092c0e820" />
 
