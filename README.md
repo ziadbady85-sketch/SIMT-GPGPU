@@ -178,11 +178,6 @@ The `Thread_Controller` generates the active-thread mask used throughout the exe
 
 # Thread Activation and Masking
 
-
-<img width="1364" height="768" alt="Gemini_Generated_Image_xcc2ctxcc2ctxcc2" src="https://github.com/user-attachments/assets/7f6eec1c-1fea-4b41-abfa-ea810a9584fe" />
-
-
-
 The GPU supports thread-level activation through the `thread_en` mask.
 
 For example, if only 10 threads are active:
@@ -495,6 +490,8 @@ The `GPU_CORE` distributes the shared control signals to its two blocks and aggr
 
 Each Block contains exactly 8 hardware threads.
 
+<img width="1376" height="552" alt="Gemini_Generated_Image_e2aooje2aooje2ao" src="https://github.com/user-attachments/assets/056b5681-b29c-4921-b8bc-a2db7b73d92a" />
+
 ```text
 ┌─────────────────────────┐
 │ Thread 0                │
@@ -541,6 +538,9 @@ The same principle applies to:
 # GPU Thread
 
 The Thread is the fundamental execution unit.
+
+<img width="1364" height="768" alt="Gemini_Generated_Image_xcc2ctxcc2ctxcc2" src="https://github.com/user-attachments/assets/670daf8a-95c7-4f7c-bab6-984f14a30038" />
+
 
 Each thread contains:
 
