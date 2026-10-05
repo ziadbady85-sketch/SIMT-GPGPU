@@ -178,6 +178,11 @@ The `Thread_Controller` generates the active-thread mask used throughout the exe
 
 # Thread Activation and Masking
 
+
+<img width="1364" height="768" alt="Gemini_Generated_Image_xcc2ctxcc2ctxcc2" src="https://github.com/user-attachments/assets/7f6eec1c-1fea-4b41-abfa-ea810a9584fe" />
+
+
+
 The GPU supports thread-level activation through the `thread_en` mask.
 
 For example, if only 10 threads are active:
