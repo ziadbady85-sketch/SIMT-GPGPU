@@ -77,7 +77,8 @@ This allows the architecture to demonstrate the fundamental relationship between
 
 The following diagram represents the complete high-level architecture.
 
-<img width="1264" height="843" alt="Gemini_Generated_Image_i910rni910rni910" src="https://github.com/user-attachments/assets/931888ee-bcc6-4dbc-a5e0-99d183756fef" />
+<img width="1264" height="843" alt="SIMT_GPGPU" src="https://github.com/user-attachments/assets/1fa64507-4f4c-4990-b148-0bf9290be96f" />
+
 
 ---
 
@@ -349,6 +350,9 @@ All other opcode behavior remains unchanged.
 
 The Scheduler is the central control FSM of the GPU.
 
+<img width="1245" height="848" alt="Scheduler" src="https://github.com/user-attachments/assets/0a61e5b4-f42f-4803-b9d0-e54d01aa7d64" />
+
+
 The main execution states are:
 
 ```text
@@ -458,6 +462,9 @@ Results are written back to the appropriate register files and the PC is updated
 
 # GPU Core Organization
 
+<img width="1264" height="843" alt="Core" src="https://github.com/user-attachments/assets/b6f9e5ee-84e3-42d7-a38b-39e5dd433d58" />
+
+
 Each GPU Core contains two Blocks.
 
 ```text
@@ -496,7 +503,8 @@ The `GPU_CORE` distributes the shared control signals to its two blocks and aggr
 
 Each Block contains exactly 8 hardware threads.
 
-<img width="1376" height="552" alt="Gemini_Generated_Image_e2aooje2aooje2ao" src="https://github.com/user-attachments/assets/056b5681-b29c-4921-b8bc-a2db7b73d92a" />
+<img width="1364" height="768" alt="Bock" src="https://github.com/user-attachments/assets/967ac2b2-2b91-422d-8735-b14f20c4f811" />
+
 
 ```text
 ┌─────────────────────────┐
@@ -545,7 +553,8 @@ The same principle applies to:
 
 The Thread is the fundamental execution unit.
 
-<img width="1364" height="768" alt="Gemini_Generated_Image_xcc2ctxcc2ctxcc2" src="https://github.com/user-attachments/assets/670daf8a-95c7-4f7c-bab6-984f14a30038" />
+<img width="1364" height="768" alt="Thread" src="https://github.com/user-attachments/assets/a0e5759a-f0dd-4897-b9be-c3e3bcde08f6" />
+
 
 Each thread contains:
 
@@ -604,6 +613,9 @@ without requiring additional instruction operands.
 ---
 
 # ALU
+
+<img width="1363" height="768" alt="ALU" src="https://github.com/user-attachments/assets/112d89cf-9a55-4a9b-a4af-72fb20945f61" />
+
 
 Each thread contains a **32-bit ALU** supporting two operation classes.
 
