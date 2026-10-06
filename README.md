@@ -1524,7 +1524,7 @@ GPU
 
 The synthesis result provides a hardware-oriented view of the implemented RTL after synthesis.
 
-<img width="1533" height="789" alt="Synthesis" src="https://github.com/user-attachments/assets/c73a2405-3f62-4190-9bc8-924092c0e820" />
+<img width="1531" height="665" alt="image" src="https://github.com/user-attachments/assets/6694ade0-a6db-4d5c-a2ac-ba2df4614e7d" />
 
 The synthesis view is useful for inspecting:
 
